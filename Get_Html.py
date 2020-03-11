@@ -2,11 +2,9 @@
 
 import os
 import requests
-import re
-import json
 from bs4 import BeautifulSoup
 
-class get_question:
+class Get_Html:
     def __init__(self):
         self.save_path = r"D:\my_python_code\web_spider\temp"
         self.url = 'http://zjzx.zjnu.edu.cn/test/Default.aspx?cid={:d}&pid={:d}'
